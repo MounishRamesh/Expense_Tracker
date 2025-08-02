@@ -1,0 +1,114 @@
+/* Background and transition */
+body {
+    background-color: #1a1a1a; /* Dark gray background */
+    font-family: 'Arial', sans-serif;
+    color: #f0f0f0; /* Light silver text */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    background: none; /* Remove background image */
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #dcdcdc; /* Light silver */
+}
+
+h1.form-heading, h2.form-heading {
+    color: #f0f0f0;
+}
+
+/* Container box - Silver themed dark box */
+.container {
+    margin-top: 50px;
+    background-color: rgba(192, 192, 192, 0.1) !important; /* Transparent silver shade */
+    padding: 20px;
+    border-radius: 10px;
+    color: #f0f0f0;
+}
+
+/* Table */
+.table {
+    margin-top: 20px;
+    background-color: #2a2a2a; /* Darker table background */
+    color: #f0f0f0;
+}
+
+.table th, .table td {
+    color: #f0f0f0; /* Silver text */
+    border-color: #444; /* Border matching dark theme */
+}
+
+.table thead.thead-light {
+    background-color: #444; /* Darker table header */
+    color: #ffffff;
+}
+
+/* Buttons */
+.btn {
+    margin-right: 5px;
+}
+
+a {
+    color: #c0c0c0; /* Silver link color */
+}
+
+a.btn {
+    color: #fff; /* Button link color */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Form inputs */
+input, button {
+    color: #000; /* Keep input text black for readability */
+    background-color: #e0e0e0; /* Light background for input fields */
+}
+
+label {
+    color: #f0f0f0;
+}
+
+/* Card */
+.card {
+    background-color: rgba(255, 255, 255, 0.1); /* Faint white */
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #ccc; /* Soft silver */
+}
